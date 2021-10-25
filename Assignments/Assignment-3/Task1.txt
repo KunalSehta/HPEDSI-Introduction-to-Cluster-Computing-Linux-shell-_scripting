@@ -1,0 +1,4 @@
+1)
+a) $ sort numbers > phone_list
+b) $ cat permdemos.c | tr '[{}]' '(())' or $ tr '[{}]' '(())' < permdemos.c
+c) $ cat part[12] > book

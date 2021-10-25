@@ -1,0 +1,21 @@
+1. display the man page for shadow in section 5 of the system manual
+You would type man 5 shadow to get to section 5 of the manual for shadow. If you were just going to look at the man for shadow you would type man shadow.
+
+2. following commands if the file named done already exists?
+$ cp to_do done
+$ mv to_do done
+If the file done already exists then the command $ cp to_do done would copy to_doto thedonefile and the $ mv to_do done would move to_do into thefile.
+
+3.
+a).  How can you find the phone number for Ace Electronics in a file named phone that contains a list of names and phone numbers? 
+$ grep "Ace Electronics" phone
+
+b). Which command can you use to display the entire file in alphabetical order? 
+$ sort phone
+
+c). How can you display the file without any duplicate lines?
+$ uniq phone
+
+
+4. How would you find out which Linux utilities create and work with archive files?
+apropos archive
